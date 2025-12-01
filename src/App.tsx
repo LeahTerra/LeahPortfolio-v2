@@ -8,6 +8,7 @@ import { Contact } from './components/contact';
 import { Footer } from './components/footer';
 import { Particles } from './components/ui/shadcn-io/particles'
 
+
 export default function App() {
 
   return (
