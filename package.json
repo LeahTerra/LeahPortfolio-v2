@@ -2,7 +2,7 @@
       "name": "LeahPortfolio",
       "version": "0.1.0",
       "private": true,
-      "homepage": "https://leahterra.github.io/LeahPortfolio-v2",
+      "homepage": "/",
       "dependencies": {
             "@radix-ui/react-accordion": "^1.2.3",
             "@radix-ui/react-alert-dialog": "^1.1.6",
