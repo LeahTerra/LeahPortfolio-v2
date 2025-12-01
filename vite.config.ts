@@ -5,6 +5,9 @@
   import path from 'path';
 
   export default defineConfig({
+    // important for GitHub Pages project sites — assets must be served from the repo subpath
+    // use repo-relative base only for production builds so dev server still works at '/'
+    base: process.env.NODE_ENV === 'production' ? '/LeahPortfolio-v2/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -52,7 +55,8 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      // keep the default dist output so the existing deploy script (gh-pages -d dist) works
+      outDir: 'dist',
     },
     server: {
       port: 3000,
