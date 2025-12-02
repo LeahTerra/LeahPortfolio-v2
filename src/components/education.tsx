@@ -12,7 +12,7 @@ export function Education() {
               <div className="w-20 h-1 bg-rose-400 rounded-full"></div>
             </div>
           </div>
-          <div className="flex lg:order-2 self-center">
+          <div className="flex lg:order-2 self-center my-12">
             <div className="flex items-start gap-4 mb-6">
               <GraduationCap size={32} className="text-rose-400 flex-shrink-0" />
               <div className='flex flex-col justify-evenly gap-4'>
